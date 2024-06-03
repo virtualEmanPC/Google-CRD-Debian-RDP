@@ -2,6 +2,8 @@
 
 ## RDP with Google Chrome Remote Desktop (CRD) in Google Colab (Colaboratory)
 
+![.](RDP_Screenshot.png)
+
 # Read This Before Rushing To Download Colab Workflow 💀
 
 * i'm **not responsible** for **suspended Google accounts**
@@ -35,11 +37,13 @@ RDP Description:
     <summary>Ubuntu RDP Install and Run</summary>
 <br>
     
-*  [**Click Here**](https://github.com/virtualEmanPC/Google-CRD-Debian-RDP/blob/main/rdp.py) To Go View RDP Sourc Code And Copy.
+*  [**Click Here**](https://github.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-in-Google-Colab/blob/main/Command.txt) To Go View RDP Run Command And Copy.
 
 *  Go To [**Google Colab**](https://colab.research.google.com/) And Create New Notbook.
 
-* Past RDP Sourc Code And Go To [**Google Chrome Remote Desktop (CRD)**](https://remotedesktop.google.com/headless) . 
+* Past RDP Run Command And Press **Enter**.
+
+* Go To [**Google Chrome Remote Desktop (CRD)**](https://remotedesktop.google.com/headless) . 
 
 * Click **Begin Button**.
 
@@ -49,20 +53,19 @@ RDP Description:
 
 * Copy Your **Debian Linux SSH** Code **(token)**.
 
-* Paste It In The **Colab** Then Click **Play Button**.
+* Paste It In The **Colab** Then Press **Enter**.
 
 * **Wait 2 - 3 Minutes**.
 
 * After You See my **Banner Art** And **Remote Access Link**.
 
-* Click **Remote Access Link** Then Click **Remote Access**
+* Click **Remote Access Link** And Then Click **First Rimote Dives**.
 
-* Double Click and Give **PIN : _123456_**
+* Give **Your PIN**.
 
 * Now You're In , Enjoy.
 
 </details>
 
 
-### Brought To You By Disala 💀 , Its Functional 😗.
 ### You Can See ID , Username , Pass , Pc Name And Cool Ascki Art 
