@@ -31,11 +31,7 @@ RDP Description:
   - You can custom Password
   - Ect ...
 
-## Deploy and Run
-
-<details>
-    <summary>Ubuntu RDP Install and Run</summary>
-<br>
+## Ubuntu RDP Install and Run
     
 *  [**Click Here**](https://github.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-in-Google-Colab/blob/main/Command.txt) To Go View RDP Run Command And Copy.
 
