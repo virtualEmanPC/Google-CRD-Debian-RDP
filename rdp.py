@@ -2,15 +2,25 @@ import os
 import subprocess
 import shutil
 
-CRD_SSH_Code = input("Google CRD SSH Code :")
-Username = "user" #@param {type:"string"}
-Password = "root" #@param {type:"string"}
+print("Manual link : https://github.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-in-Google-Colab/blob/main/README.md#deploy-and-run")
+
+print("Write A Username And Password")
+
+Username = input("User Name  : ")
+Password = input("User Pass  : ")
+
+print("Write Your Debian Linux SSH Code")
+
+CRD_SSH_Code = input("Google CRD SSH Code : ")
+
 os.system(f"useradd -m {Username}")
 os.system(f"adduser {Username} sudo")
 os.system(f"echo '{Username}:{Password}' | sudo chpasswd")
 os.system("sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd")
 
-Pin = 123456 #@param {type: "integer"}
+print("Write A 6 Digits Pin")
+
+Pin = input("Log In Pin : ")
 Autostart = True #@param {type: "boolean"}
 
 class CRDSetup:
@@ -102,9 +112,11 @@ X-GNOME-Autostart-enabled=true""".format(link)
         print("....##.##.......##....##.##.....##....##....##..##..##..##........##......##.......##..##..##..##...##.##....##......##......")
         print(".....###......######..##..##....##....########..##..##..######....######..##.......##..##..##..##....####....##......######..")
         print(".............................................................................................................................")
-        print(" ")
+        print(".....Remote Access Link: https://remotedesktop.google.com/access/............................................................")
+        print(".............................................................................................................................")
+        print(".............................................................................................................................")
         print("User Info :")
-        print(" ")
+        print(".............................................................................................................................")
         print("Log in PIN : " + str(Pin)) 
         print("User Name  : " + Username) 
         print("User Pass  : " + Password) 
