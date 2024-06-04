@@ -2,22 +2,26 @@ import os
 import subprocess
 import shutil
 
-print("Write Your Debian Linux SSH Code")
-
-CRD_SSH_Code = input("Google CRD SSH Code : ")
 
 print("Write A Username And Password")
 
 Username = input("User Name  : ")
 Password = input("User Pass  : ")
+
+print("Write A 6 Digits Pin")
+
+Pin = input("Log In Pin : ")
+
+
+print("Write Your Debian Linux SSH Code")
+
+CRD_SSH_Code = input("Google CRD SSH Code : ")
+
 os.system(f"useradd -m {Username}")
 os.system(f"adduser {Username} sudo")
 os.system(f"echo '{Username}:{Password}' | sudo chpasswd")
 os.system("sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd")
 
-print("Write A 6 Digits Pin")
-
-Pin = input("Log In Pin : ")
 Autostart = True #@param {type: "boolean"}
 
 class CRDSetup:
