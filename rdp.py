@@ -2,8 +2,6 @@ import os
 import subprocess
 import shutil
 
-print("Manual link : https://github.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-in-Google-Colab/blob/main/README.md#ubuntu-rdp-install-and-run")
-
 print("Write A Username And Password")
 
 Username = input("User Name  : ")
