@@ -2,16 +2,21 @@ import os
 import subprocess
 import shutil
 
+print("User Manule : https://github.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-on-Google-Colab?tab=readme-ov-file#ubuntu-rdp-install-and-run")
+print(" ")
 
 print("Write A Username And Password")
 
 Username = input("User Name  : ")
 Password = input("User Pass  : ")
 
+print(" ")
+
 print("Write A 6 Digits Pin")
 
 Pin = input("Log In Pin : ")
 
+print(" ")
 
 print("Write Your Debian Linux SSH Code")
 
@@ -66,12 +71,21 @@ class CRDSetup:
 
     @staticmethod
     def changewall():
-        os.system(f"curl -s -L -k -o xfce-verticals.png https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6S-m4OLmvtcZS8ZTVV6URDle3ElT3wy4mi2Zp1CPZ4B5k8JBHsxfQHoc6X9H0TNI0Mx-vS-Nvedg3Eu9lDkz7vZ0X3vo0xO1OjHLzmVkKMviP52PjB1fkveE51FmfgP-QQv0JGXM-ZnFJMTGU-gfFCQbbQ9DVchPVJ_xUMR5Dx-5hffAxAoCioOST9_0/s892/Wallpaper.png")
+        os.system(f"curl -s -L -k -o xfce-verticals.png https://raw.githubusercontent.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-on-Google-Colab/main/Wallpaper-2.png")
         current_directory = os.getcwd()
         custom_wallpaper_path = os.path.join(current_directory, "xfce-verticals.png")
         destination_path = '/usr/share/backgrounds/xfce/'
         shutil.copy(custom_wallpaper_path, destination_path)
         print("Wallpaper Changed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+
+    @staticmethod
+    def changewall():
+        os.system(f"curl -s -L -k -o Wallpaper.png https://raw.githubusercontent.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-on-Google-Colab/main/Wallpaper.png")
+        current_directory = os.getcwd()
+        custom_wallpaper_path = os.path.join(current_directory, "Wallpaper.png")
+        destination_path = '/usr/share/backgrounds/xfce/'
+        shutil.copy(custom_wallpaper_path, destination_path)
+        print("Wallpaper Uploded !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
    
     @staticmethod
     def installQbit():
