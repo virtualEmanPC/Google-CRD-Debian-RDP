@@ -2,15 +2,14 @@ import os
 import subprocess
 import shutil
 
-print("Write A Username And Password")
-
-Username = input("User Name  : ")
-Password = input("User Pass  : ")
-
 print("Write Your Debian Linux SSH Code")
 
 CRD_SSH_Code = input("Google CRD SSH Code : ")
 
+print("Write A Username And Password")
+
+Username = input("User Name  : ")
+Password = input("User Pass  : ")
 os.system(f"useradd -m {Username}")
 os.system(f"adduser {Username} sudo")
 os.system(f"echo '{Username}:{Password}' | sudo chpasswd")
