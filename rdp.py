@@ -79,15 +79,6 @@ class CRDSetup:
         print("Wallpaper Changed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     @staticmethod
-    def changewall():
-        os.system(f"curl -s -L -k -o Wallpaper.png https://raw.githubusercontent.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-on-Google-Colab/main/Wallpaper.png")
-        current_directory = os.getcwd()
-        custom_wallpaper_path = os.path.join(current_directory, "Wallpaper.png")
-        destination_path = '/usr/share/backgrounds/xfce/'
-        shutil.copy(custom_wallpaper_path, destination_path)
-        print("Wallpaper Uploded !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-   
-    @staticmethod
     def installQbit():
         subprocess.run(["sudo", "apt", "update"])
         subprocess.run(["sudo", "apt", "install", "-y", "qbittorrent"])
