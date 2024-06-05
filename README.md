@@ -2,7 +2,7 @@
 
 ## RDP with Google Chrome Remote Desktop (CRD) in Google Colab (Colaboratory)
 
-![.](RDP_Screenshot.png)
+![.](RDP_Screenshot_2.png)
 
 # Read This Before Rushing To Download Colab Workflow 💀
 
@@ -14,21 +14,22 @@
 ### Ubuntu 22.04.3 LTS
 
 RDP Description:
-* OS Name : Ubuntu 22.04.3 LTS
-* OS Type : 64-Bit
-* Xfce Version : Xubuntu
-* CPU : INTEL Xeon(R) CPU @ 2.20Ghz * 2
-* Memory : 12.7 GB RAM
-* GPU : llvmpipe (LLVM 15.0.7, 256bits) (12.7GB)
-* We Have Some Cool Features That Other workflows Dosen't Have
-  - Automatically Telegram Installed
-  - Automatically Google Chrome Installed
-  - Automatically Qbittorrent Installed
-  - Removed Stupid/Unrated Softwares
-  - Automatically Change Wallpaper
-  - You can custom PIN
-  - You can custom Username
-  - You can custom Password
+* OS Name : Ubuntu 22.04.3 LTS.
+* OS Type : 64-Bit.
+* Xfce Version : Xubuntu.
+* CPU : INTEL Xeon(R) CPU @ 2.20Ghz x 2.
+* Memory : 12.7 GB RAM.
+* GPU : llvmpipe (LLVM 15.0.7, 256bits) (12.7GB).
+* We Have Some Cool Features That Other workflows Dosen't Have.
+  - RDP Duration 12 hours.
+  - Automatically Telegram Installed.
+  - Automatically Google Chrome Installed.
+  - Automatically Qbittorrent Installed.
+  - Removed Stupid/Unrated Softwares.
+  - Automatically Change Wallpaper.
+  - You can custom PIN.
+  - You can custom Username.
+  - You can custom Password.
   - Ect ...
 
 ## Ubuntu RDP Install and Run
