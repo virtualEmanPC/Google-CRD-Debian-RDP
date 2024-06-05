@@ -71,7 +71,7 @@ class CRDSetup:
 
     @staticmethod
     def changewall():
-        os.system(f"curl -s -L -k -o xfce-verticals.png https://raw.githubusercontent.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-on-Google-Colab/main/Wallpaper-2.png")
+        os.system(f"curl -s -L -k -o xfce-verticals.png https://raw.githubusercontent.com/virtualEmanPC/RDP-with-Google-Chrome-Remote-Desktop-on-Google-Colab/main/Wallpaper2.png")
         current_directory = os.getcwd()
         custom_wallpaper_path = os.path.join(current_directory, "xfce-verticals.png")
         destination_path = '/usr/share/backgrounds/xfce/'
